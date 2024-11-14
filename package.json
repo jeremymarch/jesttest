@@ -2,7 +2,7 @@
   "name": "jesttest",
   "version": "1.0.0",
   "description": "",
-  "main": "scripts/file1.js",
+  "main": "scripts/index.js",
   "scripts": {
     "test": "jest"
   },

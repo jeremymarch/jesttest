@@ -10,7 +10,7 @@ function fizz_buzz(numbers) {
         } else if (number % 5 === 0) {
             result.push('buzz');
         } else {
-            result.push(number);
+            result.push(number)
         }
     }
     

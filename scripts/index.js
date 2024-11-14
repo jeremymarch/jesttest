@@ -1,7 +1,8 @@
+/* global module */
 function fizz_buzz(numbers) {
     const result = [];
     
-    for (number of numbers) {
+    for (const number of numbers) {
         if (number % 15 === 0) {
             result.push('fizzbuzz');
         } else if (number % 3 === 0) {

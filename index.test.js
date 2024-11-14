@@ -1,3 +1,5 @@
+/* global require expect test describe */
+//import * as blah from "scripts/index.js";
 const fizz_buzz = require('./scripts/index');
 
 describe("FizzBuzz", () => {

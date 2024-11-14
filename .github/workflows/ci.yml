@@ -17,7 +17,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '22.11'
 
       - name: Install dependencies
         run: npm install
@@ -37,7 +37,7 @@ jobs:
 
       - name: Install ESLint
         run: |
-          npm install eslint@8.35.0
+          npm install eslint@9.14.0
           npm install @microsoft/eslint-formatter-sarif@3.0.0
       - name: Run ESLint
         run: npx eslint .
